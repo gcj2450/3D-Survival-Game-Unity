@@ -85,3 +85,6 @@ node_modules
 
 .idea
 .idea/.idea.survival-shooter/.idea
+/UserSettings
+/.vs
+/.vsconfig

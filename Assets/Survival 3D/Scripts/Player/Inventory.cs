@@ -214,7 +214,7 @@ public class Inventory : MonoBehaviour
         //set the stat value and stat names of item
         selectedItemStatName.text = string.Empty;
         selectedItemStatValue.text = string.Empty;
-
+        Debug.Log($"{(selectedItem == null)},{(selectedItem.item == null)},{(selectedItem.item.consumables == null)}");
         for (int x = 0; x < selectedItem.item.consumables.Length; x++)
         {
             selectedItemStatName.text += selectedItem.item.consumables[x].type.ToString() + "\n";
